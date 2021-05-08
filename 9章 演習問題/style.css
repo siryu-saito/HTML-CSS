@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main-list {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.main-content {
+  width: 300px;
+  background-color: #f7f7f7;
+  display: inline-block;
+  position: relative;
+}
+
+.main-content:nth-child(2) {
+  margin: 0 24px;
+}
+
+.main-image {
+  height: 150px;
+  margin: 10px 10px 0 10px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+}
+
+.main-step {
+  width: 45px;
+  color: white;
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+}
+
+.main-content h3 {
+  font-size: 15px;
+  padding: 15px 10px 5px 10px;
+}
+
+.main-text {
+  font-size: 12px;
+  margin: 0 10px 10px 10px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
